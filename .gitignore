@@ -1,0 +1,15 @@
+# OS - macOS
+.DS_Store
+
+# IDE - PyCharm / IntelliJ
+.idea/
+
+# Python cache
+__pycache__/
+
+# Virtual Environment
+venv/
+
+# Generated vector database
+vector_db/
+
