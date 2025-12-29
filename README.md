@@ -48,7 +48,7 @@ pip install langchain langchain-community langchain-huggingface langchain-core s
 
 ### Step 4: Prepare Your Documents
 
-Place your PDF files in the `data/` directory. The default setup expects `data/nishan.pdf`, but you can modify `ingest.py` to use your own PDF file.
+Place your PDF files in the `data/` directory. The default setup expects `data/Swarnima_Dwivedi_Resume.pdf`, but you can modify `ingest.py` to use your own PDF file.
 
 ## Usage Guide
 
@@ -61,7 +61,7 @@ python ingest.py
 ```
 
 **What this does:**
-- Loads PDF documents from `data/nishan.pdf`
+- Loads PDF documents from `data/Swarnima_Dwivedi_Resume.pdf`
 - Splits documents into chunks (600 characters with 100 overlap)
 - Generates embeddings using HuggingFace's `all-MiniLM-L6-v2` model
 - Stores the vector database in `vector_db/` directory
