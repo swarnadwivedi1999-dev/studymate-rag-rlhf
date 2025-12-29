@@ -137,7 +137,7 @@ Ask your question (type 'exit' to quit): exit
 ```
 studymate-rag/
 ├── data/
-│   └── nishan.pdf          # Your PDF documents (add your own)
+│   └── Swarnima_Dwivedi_Resume.pdf          # Your PDF documents (add your own)
 ├── vector_db/              # Generated vector database (created after ingest.py)
 ├── feedback_store.json     # Stores all user feedback and ratings
 ├── ingest.py               # Document ingestion and embedding generation
